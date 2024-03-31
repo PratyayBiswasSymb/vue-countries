@@ -1,5 +1,5 @@
 <template>
-    <div class="CountryView">
+    <div class="CountryView" style="background-color: aquamarine;">
         <h2>{{ data?.name?.common }}</h2>
         <div class="main" v-if="render">
             <img :src="data.flags.png" alt="">
